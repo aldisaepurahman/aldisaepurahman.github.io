@@ -340,6 +340,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -426,6 +427,11 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+
+.about, .skills, .resume, .portfolio, .services, .contact, .portfolio-details {
+  padding: 50px;
+}
+
 .skills .progress {
   height: 60px;
   display: block;
@@ -438,6 +444,7 @@ section {
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
+  font-size: 14px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
@@ -1033,7 +1040,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
+  padding: 20px;
   background: #f9f9f9;
 }
 
