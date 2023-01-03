@@ -49,12 +49,12 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="../index.html#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="../index.html#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="../index.html#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="../index.html#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li> -->
+          <li><a href="../index.html#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -81,14 +81,28 @@
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row gy-4">
+        <div class="gy-4">
 
-          <div class="col-lg-8">
+          <div class="col-lg-12">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Android App</li>
+                <li><strong>Project date</strong>: 12 August, 2022</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/aldisaepurahman/MyFootballApp" target="_blank">Football App</a></li>
+                <li><strong>Details</strong>: <a href="#descriptions" class="scrollto"> Click Here</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+          <div class="col-lg-12">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="../assets/img/portfolio/football_homepage.png" alt="" width="135" height="700">
+                  <img src="../assets/img/portfolio/football_homepage.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
@@ -108,19 +122,25 @@
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Android App</li>
-                <li><strong>Project date</strong>: 12 August, 2022</li>
-                <li><strong>Project URL</strong>: <a href="https://github.com/aldisaepurahman/MyFootballApp" target="_blank">Football App</a></li>
-              </ul>
-            </div>
+          <div id="descriptions" class="col-lg-12">
             <div class="portfolio-description">
-              <h2>Football App</h2>
-              <p>
-                Football App is the application which used to show all teams from a certain league, such as an entire team from English Premier League like Arsenal, Chelsea, etc. You can view all the details from each team and add the team to your favorite list. You can also view all league standings to get more update about your favorite team in domestic league. This application develop using Clean Architecture, Reactive Programming with Coroutine Flow, Koin library for Dependency Injection, Modularization and Dynamic Feature on Favorite feature, CI/CD development with CircleCI, and Security Feature.
+              <h2>About Football App</h2>
+              <p style="text-align: justify;">
+                Football App is the application which used to show all teams from a certain league, such as an entire team from English Premier League like Arsenal, Chelsea, etc.
+                You can view all the details from each team and add the team to your favorite list. You can also view all league standings to get more update about your favorite team in domestic league.
+                This application develop using Clean Architecture, Reactive Programming with Coroutine Flow, Koin library for Dependency Injection, Modularization and Dynamic Feature on Favorite feature, CI/CD development with CircleCI, and Security Feature.
+              </p>
+              <h2>Story Behind Development</h2>
+              <p style="text-align: justify;">
+                This application has been created when i was still in Bangkit Academy. I have to complete the expert course with created an Android application using Clean Architecture, Reactive Programming, Dependency Injection, Modularization and Dynamic Feature, CI/CD,
+                and Security Feature in that application. Bangkit Team give me 3 months time for builded this application until complete from July because the expert course was given at the end of Bangkit program, but i want to complete my application in 2 weeks time because
+                i should back to my University in August to continue my study. Because that, i was overwhelming to complete the application and looked up various solution to complete that, and i did not take more points from my submission to complete that using a solution other
+                than the one provided by Bangkit Team. More than that, i found some error and bug when i builded this application like error when implemented Coroutine Flow and dependency problem because i implemented Dynamic Feature so that i needed more time than 2 weeks to
+                complete this application.
+              </p>
+              <p style="text-align: justify;">
+                Even so, i could complete this application before August, with i created 4 main pages in this application, such as <b>League Team List</b> as my app's homepage to show all teams from a certain league. You can
+                see more <b>Details</b> from each team and add the team to your favorite list. Then, the <b>League Standings</b> to get more update about your favorite team in domestic league, and <b>Favorite page</b> to show all of your favorite team.
               </p>
             </div>
           </div>
